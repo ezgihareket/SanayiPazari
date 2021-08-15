@@ -74,7 +74,7 @@ include ("partials/head.php");
 							?> TL
 						</span>
 						<hr>
-						<span><i>Tüm Teklifler: </i><br> 
+						<!--<span><i>Tüm Teklifler: </i><br> 
 							<?php 
 							include ('partials/connect.php');
 							$sql="SELECT * FROM offers";
@@ -84,7 +84,7 @@ include ("partials/head.php");
 								<h8><?php echo $final['offerValue'] ?></h8> TL <br>
 							<?php }
 							?>
-						</span>
+						</span>-->
 
 						<div class="p-t-33">
 							<?php
